@@ -1,0 +1,31 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api": {
+            "get": {
+                "summary": "Get API endpoint",
+                "operationId": "da57a6429c7d2bea1de1146322cba213",
+                "parameters": [
+                    {
+                        "name": "input",
+                        "in": "query",
+                        "description": "Input parameter",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        }
+    }
+}

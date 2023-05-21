@@ -1,0 +1,6 @@
+{
+    "name": "shreyas/phalcon-swagger",
+    "require": {
+        "zircote/swagger-php": "^4.7.10"
+    }
+}
