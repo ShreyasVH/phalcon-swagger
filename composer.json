@@ -1,6 +1,6 @@
 {
-    "name": "shreyas/phalcon-swagger",
-    "require": {
-        "zircote/swagger-php": "6.5.2"
-    }
+  "name": "shreyas/phalcon-swagger",
+  "require": {
+    "zircote/swagger-php": "6.6.0"
+  }
 }
